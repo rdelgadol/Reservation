@@ -1,16 +1,16 @@
-#Reservation API REST
+# Reservation API REST
 It´s a booking service for the public company Cantur, that manages touristic resorts in the province of Cantabria (Spain).
 	
 The name is reservation, to avoid confusion whit the booking entity.
 
-##Design
+## Design
 This API REST uses an embedded H2 database available in the URL http://localhost:9002/h2-console
 
 As requested, it manages bookings and blocks. Each concept has its entity, repository and service, but there is only a controller.
 
 The port has been changed to 9002 in the properties file.
 
-##Endpoints
+## Endpoints
 Both bookings and blocks can be managed through the following endpoints, examples are provided.
 
 Get, to obtain entities that overlaps with the given dates:
